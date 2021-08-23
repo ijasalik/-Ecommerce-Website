@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "","crud");
+$conn = mysqli_connect("localhost", "username", "password","crud");
 
 $request=$_SERVER['REQUEST_METHOD'];
 $data=array();
